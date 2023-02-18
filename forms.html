@@ -2,11 +2,44 @@
 <head>
 </head>
 <body>
+<style>
+    h1 {background-color: black;}
+    h1 {color: aqua;}
+    label {color: rgb(97, 26, 0);}
+    input[type=text]
+    {
+        width: 50%;
+        padding: 5px 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px;
+        border-radius: 4px;
+    }
+    input[type=email]
+{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px;
+    border-radius: 4px;
+}
+input[type=number]
+{
+    width: 50%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px cyan;
+    border-radius: 4px;
+}
+</style>
     <center><h1>Event details</h1></center>
-<form action="a.html" method="post" style="border:2px solid black;width:60%;height:250%;margin:auto"><br>
+<form action="a.html" method="post" style="border:2px solid black;width:60%;height:100%;margin:auto ;background-color:grey;" ><br>
+
     <div class="form-group bg-warning">
         <label for="fname">firstname:</label>
-        <input type="text" name="fn" class="form-control" required>
+        <input style="border;" type="text" name="fn" class="form-control"required>
     </div><br>
     <div class="form-group bg-primary">
         <label for ="lname">Lastname:</label>
