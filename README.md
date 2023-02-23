@@ -1,1 +1,1 @@
-# this consists of registration form page for entering the event details
+# This consists of registration form page for entering the event details.
